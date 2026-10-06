@@ -1,0 +1,14 @@
+/home/romeo/htl/sew/fantasy/bin/Debug/net10.0/fantasy
+/home/romeo/htl/sew/fantasy/bin/Debug/net10.0/fantasy.deps.json
+/home/romeo/htl/sew/fantasy/bin/Debug/net10.0/fantasy.runtimeconfig.json
+/home/romeo/htl/sew/fantasy/bin/Debug/net10.0/fantasy.dll
+/home/romeo/htl/sew/fantasy/bin/Debug/net10.0/fantasy.pdb
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.GeneratedMSBuildEditorConfig.editorconfig
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.AssemblyInfoInputs.cache
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.AssemblyInfo.cs
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.csproj.CoreCompileInputs.cache
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.dll
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/refint/fantasy.dll
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.pdb
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.genruntimeconfig.cache
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/ref/fantasy.dll

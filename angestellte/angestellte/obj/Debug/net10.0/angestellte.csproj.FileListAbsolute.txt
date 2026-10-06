@@ -1,0 +1,14 @@
+/home/romeo/htl/sew/angestellte/angestellte/bin/Debug/net10.0/angestellte
+/home/romeo/htl/sew/angestellte/angestellte/bin/Debug/net10.0/angestellte.deps.json
+/home/romeo/htl/sew/angestellte/angestellte/bin/Debug/net10.0/angestellte.runtimeconfig.json
+/home/romeo/htl/sew/angestellte/angestellte/bin/Debug/net10.0/angestellte.dll
+/home/romeo/htl/sew/angestellte/angestellte/bin/Debug/net10.0/angestellte.pdb
+/home/romeo/htl/sew/angestellte/angestellte/obj/Debug/net10.0/angestellte.GeneratedMSBuildEditorConfig.editorconfig
+/home/romeo/htl/sew/angestellte/angestellte/obj/Debug/net10.0/angestellte.AssemblyInfoInputs.cache
+/home/romeo/htl/sew/angestellte/angestellte/obj/Debug/net10.0/angestellte.AssemblyInfo.cs
+/home/romeo/htl/sew/angestellte/angestellte/obj/Debug/net10.0/angestellte.csproj.CoreCompileInputs.cache
+/home/romeo/htl/sew/angestellte/angestellte/obj/Debug/net10.0/angestellte.dll
+/home/romeo/htl/sew/angestellte/angestellte/obj/Debug/net10.0/refint/angestellte.dll
+/home/romeo/htl/sew/angestellte/angestellte/obj/Debug/net10.0/angestellte.pdb
+/home/romeo/htl/sew/angestellte/angestellte/obj/Debug/net10.0/angestellte.genruntimeconfig.cache
+/home/romeo/htl/sew/angestellte/angestellte/obj/Debug/net10.0/ref/angestellte.dll

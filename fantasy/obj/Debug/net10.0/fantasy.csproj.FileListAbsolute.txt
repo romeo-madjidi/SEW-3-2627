@@ -12,3 +12,4 @@
 /home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.pdb
 /home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.genruntimeconfig.cache
 /home/romeo/htl/sew/fantasy/obj/Debug/net10.0/ref/fantasy.dll
+/home/romeo/htl/sew/fantasy/obj/Debug/net10.0/fantasy.sourcelink.json

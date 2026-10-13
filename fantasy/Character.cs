@@ -2,11 +2,8 @@ using System;
 
 abstract class Character : IMoveable
 {
-    protected int x;
-    protected int y;
+    public IntegerPosition position = new IntegerPosition();
     private string name = "leer";
-
-    static protected Random random = new Random();
 
     public abstract void Move();
 

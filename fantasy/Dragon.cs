@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 class Dragon : Character
 {
@@ -8,10 +9,37 @@ class Dragon : Character
         get { return flightPower; }
     }
 
-        public override void Show()
+    public override void Move()
     {
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.SetCursorPosition(x, y);
+        int randomMove = World.random.Next(0, 8);
+        int dx = 0;
+        int dy = 0;
+        int randomDirection = World.random.Next(0,2);
+        if(randomDirection == 0)
+        {
+            while(dx == 0)
+            {
+                dx = World.random.Next(-2, 3);
+            }
+        }
+        else
+        {
+            while(dy == 0)
+            {
+                dy = World.random.Next(-2, 3);
+            }
+        }
+        if(TargetInWorld(position.X+dx, position.Y+dy))
+        {
+            position.X += dx;
+            position.Y += dy;
+        }
+    }
+
+    public override void Show()
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.SetCursorPosition(position.X, position.Y);
         Console.Write("Drache");
     }
 }

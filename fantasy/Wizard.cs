@@ -2,9 +2,14 @@ using System;
 
 sealed class Wizard : Character
 {
+    private int magicPower = 0;
+    public int MagicPower
+    {
+        get { return magicPower; }
+    }
     public override void Move()
     {
-        int randomMove = random.Next(0, 8);
+        int randomMove = World.random.Next(0, 8);
         int dx = 0;
         int dy = 0;
         switch (randomMove)
@@ -39,16 +44,16 @@ sealed class Wizard : Character
                 break;
         }
 
-        if(TargetInWorld(dx, dy))
+        if(TargetInWorld(position.X+dx, position.Y+dy))
         {
-            x += dx;
-            y += dy;
+            position.X += dx;
+            position.Y += dy;
         }
     }
     public override void Show()
     {
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.SetCursorPosition(x, y);
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.SetCursorPosition(position.X, position.Y);
         Console.Write("Merlin");
     }
 }

@@ -3,10 +3,15 @@ using System.Security.Cryptography.X509Certificates;
 
 class Dragon : Character
 {
-    private int flightPower;
     public int FlightPower
     {
-        get { return flightPower; }
+        get;
+        set;
+    }
+
+    public Dragon(string name) : base(name)
+    {
+        FlightPower = 3;
     }
 
     public override void Move()
@@ -40,6 +45,6 @@ class Dragon : Character
     {
         Console.ForegroundColor = ConsoleColor.Green;
         Console.SetCursorPosition(position.X, position.Y);
-        Console.Write("Drache");
+        Console.Write(Name);
     }
 }

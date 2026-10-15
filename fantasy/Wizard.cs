@@ -2,10 +2,15 @@ using System;
 
 sealed class Wizard : Character
 {
-    private int magicPower = 0;
     public int MagicPower
     {
-        get { return magicPower; }
+        get;
+        set;
+    }
+
+    public Wizard(string name) : base(name)
+    {
+        MagicPower = 3;
     }
     public override void Move()
     {
@@ -54,6 +59,6 @@ sealed class Wizard : Character
     {
         Console.ForegroundColor = ConsoleColor.Red;
         Console.SetCursorPosition(position.X, position.Y);
-        Console.Write("Merlin");
+        Console.Write(Name);
     }
 }

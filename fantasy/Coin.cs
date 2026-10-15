@@ -1,6 +1,6 @@
 using System;
 
-class Coin
+class Coin : Bonus
 {
     
 }

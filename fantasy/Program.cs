@@ -4,16 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        Wizard merlin = new Wizard();
-        Dragon ouroboros = new Dragon();
-        while (Console.ReadKey().Key != ConsoleKey.Escape)
+        Wizard merlin = new Wizard("Merlin");
+        Dragon ouroboros = new Dragon("Ouroboros");
+        Butterfly zitronenfalter = new Butterfly();
+        do
         {
             Console.Clear();
             merlin.Move();
             ouroboros.Move();
+            zitronenfalter.Move();
             merlin.Show();
             ouroboros.Show();
-            Console.ReadKey();
-        }
+            zitronenfalter.Show();
+        }while(Console.ReadKey().Key != ConsoleKey.Escape);
     }
 }

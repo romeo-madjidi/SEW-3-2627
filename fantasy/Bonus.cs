@@ -3,11 +3,10 @@ using System;
 abstract class Bonus : IShowable
 {
     public IntegerPosition position = new IntegerPosition();
-    private int value;
     public int Value
     {
-        get { return value; }
-        set { value = value; }
+        get;
+        set;
     }
 
     public Bonus()

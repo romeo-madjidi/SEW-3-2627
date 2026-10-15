@@ -3,7 +3,12 @@ using System;
 abstract class Character : IMoveable
 {
     public IntegerPosition position = new IntegerPosition();
-    private string name = "leer";
+
+    public string Name
+    {
+        get;
+        set;
+    }
 
     public abstract void Move();
 
@@ -16,5 +21,10 @@ abstract class Character : IMoveable
             return true;
         }
         return false;
+    }
+
+    public Character(string name)
+    {
+        Name = name;
     }
 }

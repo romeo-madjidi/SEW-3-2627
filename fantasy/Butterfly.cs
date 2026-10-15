@@ -24,6 +24,8 @@ class Butterfly : Bonus, IMoveable
         position.Y += dy;
         if(position.X >= World.WIDTH) position.X -= World.WIDTH;
         if(position.Y >= World.HEIGHT) position.Y -= World.HEIGHT;
+        if(position.X < 0) position.X = World.WIDTH-1;
+        if(position.Y < 0) position.Y = World.HEIGHT-1;
     }
 
     public override void Show()

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/romeo/htl/sew/angestellte/angestellte/angestellte.csproj",
+      "projectUniqueName": "/home/romeo/htl/sew/2-angestellte/angestellte/angestellte.csproj",
       "projectName": "angestellte",
-      "projectPath": "/home/romeo/htl/sew/angestellte/angestellte/angestellte.csproj",
+      "projectPath": "/home/romeo/htl/sew/2-angestellte/angestellte/angestellte.csproj",
       "packagesPath": "/home/romeo/.nuget/packages/",
-      "outputPath": "/home/romeo/htl/sew/angestellte/angestellte/obj/",
+      "outputPath": "/home/romeo/htl/sew/2-angestellte/angestellte/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/romeo/.nuget/NuGet/NuGet.Config"

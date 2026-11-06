@@ -2,6 +2,23 @@ using System;
 
 class Adresse
 {
+    public Adresse(){}
+
+    public Adresse(string hausnummer, string strasse, int plz, string ort, string bundesland)
+    {
+        Hausnummer = hausnummer;
+        Strasse = strasse;
+        Plz = plz;
+        Ort = ort;
+        Bundesland = bundesland;
+        Land = land;
+    }
+
+    public Adresse(string hausnummer, string strasse, int plz, string ort, string bundesland, string land) : this(hausnummer, strasse, plz, ort, bundesland)
+    {
+        Land = land;
+    }
+
     private string strasse;
     public string Strasse
     {

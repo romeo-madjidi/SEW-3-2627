@@ -2,6 +2,19 @@ using System;
 
 class Person
 {
+
+    public Person(){}
+
+    public Person(int id, string vorname, string nachname, DateTime geburtsdatum, string email, Adresse hauptwohnsitz)
+    {
+        this.Id = id;
+        this.vorname = vorname;
+        this.nachname = nachname;
+        this.geburtsdatum = geburtsdatum;
+        this.email = email;
+        this.hauptwohnsitz = hauptwohnsitz;
+    }
+
     public int Id { get; set;}
     private string vorname;
     public string Vorname {

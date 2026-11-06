@@ -2,71 +2,99 @@ using System;
 
 class Adresse
 {
+    private string strasse;
     public string Strasse
     {
-        get;
+        get
+        {
+            return strasse;
+        }
         set
         {
             if(value != string.Empty)
             {
-                Strasse = value;
+                strasse = value;
             }
         }
     }
+    private string hausnummer;
     public string Hausnummer
     {
-        get;
+        get
+        {
+            return hausnummer;
+        }
         set
         {
             if(value != string.Empty)
             {
-                Hausnummer = value;
+                hausnummer = value;
             }
         }
     }
+    private int plz;
     public int Plz
     {
-        get;
+        get
+        {
+            return plz;
+        }
         set
         {
             if(value < 10000 && value > 999)
             {
-                Plz = value;
+                plz = value;
             }
         }
     }
+    private string ort;
     public string Ort
     {
-        get;
+        get
+        {
+            return ort;
+        }
         set
         {
             if(value != string.Empty)
             {
-                Ort = value;
+                ort = value;
             }
         }
     }
+    private string bundesland;
     public string Bundesland
     {
-        get;
+        get
+        {
+            return bundesland;
+        }
         set
         {
             if(value != string.Empty)
             {
-                Bundesland = value;
+                bundesland = value;
             }
         }
     }
+    private string land = "Österreich";
     public string Land
     {
-        get;
+        get
+        {
+            return land;
+        }
         set
         {
             if(value != string.Empty)
             {
-                Land = value;
+                land = value;
             }
         }
     }
 
+    public override string ToString()
+    {
+        return Hausnummer + "." + Strasse + ", " + Plz + " " + Ort + " " + Bundesland + " " + Land;
+    }
 }

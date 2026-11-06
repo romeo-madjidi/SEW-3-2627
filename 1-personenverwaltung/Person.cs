@@ -3,51 +3,92 @@ using System;
 class Person
 {
     public int Id { get; set;}
-    public string Vorname { get;
+    private string vorname;
+    public string Vorname {
+        get
+        {
+            return vorname;
+        }
         set
         {
             if(value != string.Empty)
             {
-                Vorname = value;
+                vorname = value;
             }
         }
     }
-    public string Nachname{ get;
+    private string nachname;
+    public string Nachname{
+        get
+        {
+            return nachname;
+        }
         set
         {
             if(value != string.Empty)
             {
-                Vorname = value;
+                nachname = value;
             }
         }
     }
-    public string EMail{ get;
+    private string email;
+    public string EMail{
+        get
+        {
+            return email;
+        }
         set
         {
             if(value.Contains("@"))
             {
-                Vorname = value;
+                email = value;
             }
         }
     }
-    public DateTime Geburtsdatum{ get;
+    private DateTime geburtsdatum;
+    public DateTime Geburtsdatum{
+        get
+        {
+            return geburtsdatum;
+        }
         set
         {
             if(value < DateTime.UtcNow)
             {
-                Geburtsdatum = value;
+                geburtsdatum = value;
             }
         }
     }
-    public Adresse Hauptwohnsitz{ get;
+    private Adresse hauptwohnsitz;
+    public Adresse Hauptwohnsitz{
+        get
+        {
+            return hauptwohnsitz;
+        }
         set
         {
-            if(Hauptwohnsitz != null)
+            if(value != null)
             {
-                Hauptwohnsitz = value;
+                hauptwohnsitz = value;
             }
         }
     }
 
+    //
+    public int BerechneAlter()
+    {
+        int alter = DateTime.Now.Year - Geburtsdatum.Year;
 
+        if (DateTime.Now < Geburtsdatum.AddYears(alter))
+        {
+            alter--;
+        }
+
+        return alter;
+    }
+
+    public string VollerName()
+    {
+        return vorname + " " + nachname;
+    }
 }

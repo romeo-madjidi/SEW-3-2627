@@ -52,7 +52,7 @@
         <mxCell id="2HDL4FJ4opV4ceSTWA37-3" parent="-t7RLgCyGwAHty133om6-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Person()" vertex="1">
           <mxGeometry height="26" width="190" y="156" as="geometry" />
         </mxCell>
-        <mxCell id="2HDL4FJ4opV4ceSTWA37-4" parent="-t7RLgCyGwAHty133om6-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ BerechneAlter(): DateTime" vertex="1">
+        <mxCell id="2HDL4FJ4opV4ceSTWA37-4" parent="-t7RLgCyGwAHty133om6-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ BerechneAlter(): int" vertex="1">
           <mxGeometry height="26" width="190" y="182" as="geometry" />
         </mxCell>
         <mxCell id="2HDL4FJ4opV4ceSTWA37-5" parent="-t7RLgCyGwAHty133om6-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ VollerName(): string" vertex="1">

@@ -1,0 +1,15 @@
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/3-versicherung.GeneratedMSBuildEditorConfig.editorconfig
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/3-versicherung.AssemblyInfoInputs.cache
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/3-versicherung.AssemblyInfo.cs
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/3-versicherung.csproj.CoreCompileInputs.cache
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/3-versicherung.sourcelink.json
+/home/romeo/htl/sew/3-versicherung/bin/Debug/net10.0/3-versicherung
+/home/romeo/htl/sew/3-versicherung/bin/Debug/net10.0/3-versicherung.deps.json
+/home/romeo/htl/sew/3-versicherung/bin/Debug/net10.0/3-versicherung.runtimeconfig.json
+/home/romeo/htl/sew/3-versicherung/bin/Debug/net10.0/3-versicherung.dll
+/home/romeo/htl/sew/3-versicherung/bin/Debug/net10.0/3-versicherung.pdb
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/3-versicherung.dll
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/refint/3-versicherung.dll
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/3-versicherung.pdb
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/3-versicherung.genruntimeconfig.cache
+/home/romeo/htl/sew/3-versicherung/obj/Debug/net10.0/ref/3-versicherung.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/romeo/htl/sew/3-versicherung/3-versicherung.csproj",
+      "projectUniqueName": "/home/romeo/htl/sew/03-versicherung/3-versicherung.csproj",
       "projectName": "3-versicherung",
-      "projectPath": "/home/romeo/htl/sew/3-versicherung/3-versicherung.csproj",
+      "projectPath": "/home/romeo/htl/sew/03-versicherung/3-versicherung.csproj",
       "packagesPath": "/home/romeo/.nuget/packages/",
-      "outputPath": "/home/romeo/htl/sew/3-versicherung/obj/",
+      "outputPath": "/home/romeo/htl/sew/03-versicherung/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/romeo/.nuget/NuGet/NuGet.Config"

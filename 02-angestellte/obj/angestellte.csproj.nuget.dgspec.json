@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/romeo/htl/sew/2-angestellte/02-angestellte/angestellte.csproj": {}
+    "/home/romeo/htl/sew/02-angestellte/angestellte.csproj": {}
   },
   "projects": {
-    "/home/romeo/htl/sew/2-angestellte/02-angestellte/angestellte.csproj": {
+    "/home/romeo/htl/sew/02-angestellte/angestellte.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/romeo/htl/sew/2-angestellte/02-angestellte/angestellte.csproj",
+        "projectUniqueName": "/home/romeo/htl/sew/02-angestellte/angestellte.csproj",
         "projectName": "angestellte",
-        "projectPath": "/home/romeo/htl/sew/2-angestellte/02-angestellte/angestellte.csproj",
+        "projectPath": "/home/romeo/htl/sew/02-angestellte/angestellte.csproj",
         "packagesPath": "/home/romeo/.nuget/packages/",
-        "outputPath": "/home/romeo/htl/sew/2-angestellte/02-angestellte/obj/",
+        "outputPath": "/home/romeo/htl/sew/02-angestellte/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/romeo/.nuget/NuGet/NuGet.Config"
